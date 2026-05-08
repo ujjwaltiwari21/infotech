@@ -3,7 +3,7 @@ import HeroPage from "./Hero";
 import Stats from "./Stats";
 import Partners from "@/shared/Partners";
 import WhatsAppButton from "@/shared/Whatsapp";
-import ScrollCamera from "./Camera";
+// import ScrollCamera from "./Camera";
 
 export default function Main() {
   return (
@@ -11,7 +11,7 @@ export default function Main() {
       <Navbar />
       <HeroPage/>
       <Stats/>
-      <ScrollCamera/>
+      {/* <ScrollCamera/> */}
       <Partners/>
       <WhatsAppButton/>
     </main>
